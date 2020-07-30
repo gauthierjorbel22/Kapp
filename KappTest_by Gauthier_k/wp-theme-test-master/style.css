@@ -1,0 +1,54 @@
+/*
+Theme Name: Kapp Test Theme
+Theme URI: https://kapp.rw
+Author: Kapp
+Author URI: https://kapp.rw
+Description: Test
+Version: 1.0.0
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: kapp
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+	font-family: Roboto, Georgia, serif, Helvetica, sans-serif;
+	padding: 0;
+	margin:0;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+
+body p {
+	color:#757575
+}
+
+header, footer {
+	padding:20px 0;
+	border:1px solid rgb(23, 168, 23);
+	text-align: center;
+}
+
+header {
+	background-color: #bbffc6;
+}
+
+header h1 {
+	color:#00a1e6;
+	font-weight: 600;
+}
+
+#content {
+	max-width: 1024px;
+	margin:35px auto;
+	border-radius: 10px;
+	padding: 100px;
+	background-color: rgba(240, 240, 240, 0.9);
+}
+
+.single-post {
+	margin-bottom: 10px;
+	border-bottom: 1px dashed #333;
+}
